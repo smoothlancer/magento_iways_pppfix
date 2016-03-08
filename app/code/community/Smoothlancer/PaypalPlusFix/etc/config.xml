@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Smoothlancer_PaypalPlusFix>
+			<version>0.1</version>
+		</Smoothlancer_PaypalPlusFix>
+	</modules>
+	<global>
+	<models>
+		<smoothlancer_paypalplusfix>
+			<class>Smoothlancer_PaypalPlusFix_Model</class>
+		</smoothlancer_paypalplusfix_paypalplusfix>
+		<paypal>
+			<rewrite>
+				<config>Smoothlancer_PaypalPlusFix_Model_Config</config>
+			</rewrite>
+		</paypal>
+	</models>
+	</global>
+</config>
