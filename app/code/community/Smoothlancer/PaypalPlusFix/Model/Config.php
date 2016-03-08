@@ -27,25 +27,25 @@ class Smoothlancer_PaypalPlusFix_Model_Config extends Mage_Paypal_Model_Config
 
 {
 	
-	/**
-     * Return list of allowed methods for specified country iso code
-     * @MOD add iways paypal plus method to returned array
-     *
-     * @param string $countryCode 2-letters iso code
-     * @return array
-     */
+    /**
+    * Return list of allowed methods for specified country iso code
+    * @MOD add iways paypal plus method to returned array
+    *
+    * @param string $countryCode 2-letters iso code
+    * @return array
+    */
     public function getCountryMethods($countryCode = null)
     {
         $countryMethods =  parent:: getCountryMethods($countryCode);
 
         if ($countryCode === null) {
             foreach($countryMethods as $countryCode => $methodList){
-          		$countryMethods[$countryCode] []= Iways_PayPalPlus_Model_Payment::METHOD_CODE;	  	
+                $countryMethods[$countryCode] []= Iways_PayPalPlus_Model_Payment::METHOD_CODE;	  	
             }
         }else{
-        	$countryMethods [] = Iways_PayPalPlus_Model_Payment::METHOD_CODE;	
-        }
+           $countryMethods [] = Iways_PayPalPlus_Model_Payment::METHOD_CODE;	
+       }
 
-        return $countryMethods;
-    }
+       return $countryMethods;
+   }
 }

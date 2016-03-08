@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <config>
-    <modules>
-        <Smoothlancer_PaypalPlusFix>
-          <active>true</active>
-          <codePool>community</codePool>
-          <depends>
-          	<Mage_Paypal />
-          	<Iways_PayPalPlus />
-          </depends>
-        </Smoothlancer_PaypalPlusFix>
-    </modules>
+	<modules>
+		<Smoothlancer_PaypalPlusFix>
+			<active>true</active>
+			<codePool>community</codePool>
+			<depends>
+				<Mage_Paypal />
+				<Iways_PayPalPlus />
+			</depends>
+		</Smoothlancer_PaypalPlusFix>
+	</modules>
 </config> 

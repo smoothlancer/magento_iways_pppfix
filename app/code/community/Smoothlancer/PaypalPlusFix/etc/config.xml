@@ -6,15 +6,15 @@
 		</Smoothlancer_PaypalPlusFix>
 	</modules>
 	<global>
-	<models>
-		<smoothlancer_paypalplusfix>
-			<class>Smoothlancer_PaypalPlusFix_Model</class>
-		</smoothlancer_paypalplusfix_paypalplusfix>
-		<paypal>
-			<rewrite>
-				<config>Smoothlancer_PaypalPlusFix_Model_Config</config>
-			</rewrite>
-		</paypal>
-	</models>
+		<models>
+			<smoothlancer_paypalplusfix>
+				<class>Smoothlancer_PaypalPlusFix_Model</class>
+			</smoothlancer_paypalplusfix_paypalplusfix>
+			<paypal>
+				<rewrite>
+					<config>Smoothlancer_PaypalPlusFix_Model_Config</config>
+				</rewrite>
+			</paypal>
+		</models>
 	</global>
 </config>
