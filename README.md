@@ -4,7 +4,7 @@ This magento 1 module provides a bugfix for Iways_PayPalPlus that causes IPN mes
 When Paypal sends IPN messages for transactions(e.g. refunds) referencing orders 
 payed with Paypal Plus the following exception is thrown:
 
-'Exception' with message 'Method "iways_paypalplus_payment" is not available.
+'Exception' with message 'Method "iways_paypalplus_payment" is not available in 
 app/code/core/Mage/Paypal/Model/Ipn.php:187
 
 This module just adds the payment method "iways_paypalplus_payment" to the standard
