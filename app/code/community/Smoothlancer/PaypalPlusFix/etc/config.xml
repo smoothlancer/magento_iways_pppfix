@@ -9,7 +9,7 @@
 		<models>
 			<smoothlancer_paypalplusfix>
 				<class>Smoothlancer_PaypalPlusFix_Model</class>
-			</smoothlancer_paypalplusfix_paypalplusfix>
+			</smoothlancer_paypalplusfix>
 			<paypal>
 				<rewrite>
 					<config>Smoothlancer_PaypalPlusFix_Model_Config</config>
